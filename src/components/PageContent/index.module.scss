@@ -1,0 +1,24 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    margin-bottom: 70px;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #666;
+    word-spacing: 12px;
+  }
+
+  .describe {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+    color: #999;
+    word-spacing: 4px;
+  }
+}

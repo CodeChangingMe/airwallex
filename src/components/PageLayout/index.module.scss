@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  background: #fff;
+  .header {
+    font-size: 18px;
+    color: #333;
+    text-align: start;
+    background: #fff;
+    border-bottom: 1px solid #999;
+    font-weight: bold;
+    .title {
+      margin-left: 60px;
+    }
+  }
+  .footer {
+    color: #333;
+    background: #fff;
+    border-top: 1px solid #999;
+    font-style: italic;
+  }
+
+  @media screen and (max-width: 640px) {
+    .header .title {
+      margin-left: 0;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  :global {
+    .ant-modal {
+      width: 450px !important;
+      max-width: 80%;
+    }
+    .ant-modal-header {
+      border-bottom: 0;
+    }
+    .ant-modal-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .title {
+    position: relative;
+    text-align: center;
+    margin: 8px 0 0;
+    line-height: 46px;
+    word-spacing: 6px;
+    font-style: italic;
+    color: #333;
+    &::after {
+      content: '';
+      width: 25px;
+      height: 2px;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      background: #999;
+      transform: translateX(-16px);
+    }
+  }
+
+  .contentContainer {
+    margin-bottom: 16px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .sendButton {
+    width: 100%;
+    margin: 25px 0;
+  }
+}
